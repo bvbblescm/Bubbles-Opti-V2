@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- by bvbbles_ -->
+<!-- discord.gg/bubblescm -->
+<!-- discord.gg/citizenmakers -->
+<package version="2.1" id="{bfdf24b3-2e06-4200-a5c6-3ec1e284e504}" target="Five">
+	<metadata>
+		<name>Bubbles</name>
+		<tag>Stable</tag>
+		<version>
+			<major>1</major>
+			<minor>0</minor>
+			<tag>Stable</tag>
+		</version>
+		<author>
+			<displayName>Bubbles</displayName>
+			<actionLink>https://discord.gg/bubblescm</actionLink>
+			<youtube>https://www.youtube.com/@_bvbbles</youtube>
+		</author>
+		<description>https://discord.gg/bubblescm</description>
+	</metadata>
+	<colors>
+		<headerBackground useBlackTextColor="False">$FFFFFF</headerBackground>
+		<iconBackground>$FFFFFF</iconBackground>
+	</colors>
+	<content>
+		<add source="clouds.rpf">update\x64\dlcpacks\clouds\dlc.rpf</add>
+		<archive path="\levels\gta5\props\lev_des\v_minigame.rpf" createIfNotExist="True" type="RPF7">
+			<add source="opti\v_minigame.ytyp">v_minigame.ytyp</add>
+		</archive>
+		<archive path="update\update.rpf" createIfNotExist="True" type="RPF7">
+			<add source="opti\mp_first_person.meta">\common\data\effects\peds\mp_first_person.meta</add>
+			<add source="Bubbles\bloodfx.dat">common\data\effects\bloodfx.dat</add>
+			<add source="Bubbles\fred.xml">common\data\naturalmotion\fred.xml</add>
+			<add source="opti\firefx.dat">common\data\effects\firefx.dat</add>
+			<add source="opti\ptxclipregions.dat">common\data\effects\ptxclipregions.dat</add>
+			<add source="opti\scriptfx.dat">common\data\effects\scriptfx.dat</add>
+			<add source="opti\decals.dat">common\data\effects\decals.dat</add>
+			<add source="opti\decals_cs.dat">common\data\effects\decals_cs.dat</add>
+			<add source="opti\entityfx.dat">common\data\effects\entityfx.dat</add>
+			<add source="opti\liquidfx.dat">common\data\effects\liquidfx.dat</add>
+			<add source="opti\wheelfx.dat">common\data\effects\wheelfx.dat</add>
+			<add source="opti\weaponfx.dat">common\data\effects\weaponfx.dat</add>
+			<add source="Bubbles\visualsettings.dat">common\data\visualsettings.dat</add>
+			<add source="opti\tcinstbox_types.meta">common\data\tcinstbox_types.meta</add>
+			<add source="opti\tcinstbox_insts.meta">common\data\tcinstbox_insts.meta</add>
+			<add source="opti\deformableobjects.meta">common\data\deformableobjects.meta</add>
+			<add source="opti\gta5.meta">data\levels\gta5\gta5.meta</add>
+			<add source="opti\images.meta">common\data\gta5\images.meta</add>
+			<add source="opti\hbaosettings.xml">common\data\hbaosettings.xml</add>
+			<add source="Bubbles\clouds.xml">common\data\clouds.xml</add>
+			<add source="Bubbles\gameconfig.xml">common\data\gameconfig.xml</add>
+			<add source="Bubbles\cloudkeyframes.xml">common\data\cloudkeyframes.xml</add>
+			<add source="Bubbles\skydome.ytd">\x64\textures\skydome.ytd</add>
+			<add source="Bubbles\time.xml">common\data\levels\gta5\time.xml</add>
+			<add source="Bubbles\weather.xml">common\data\levels\gta5\weather.xml</add>
+			<add source="opti\skydome.ydd">\x64\models\skydome.ydd</add>
+			<add source="opti\scaleformpreallocation.xml">common\data\scaleformpreallocation.xml</add>
+			<add source="opti\countryside_emitter_ground.xml">common\data\levels\gta5\weather\countryside_emitter_ground.xml</add>
+			<add source="opti\countryside_render_ground.xml">common\data\levels\gta5\weather\countryside_render_ground.xml</add>
+			<add source="opti\desert_emitter_ground.xml">common\data\levels\gta5\weather\desert_emitter_ground.xml</add>
+			<add source="opti\desert_emitter_ground_heavy.xml">common\data\levels\gta5\weather\desert_emitter_ground_heavy.xml</add>
+			<add source="opti\desert_render_ground.xml">common\data\levels\gta5\weather\desert_render_ground.xml</add>
+			<add source="opti\desert_render_ground_heavy.xml">common\data\levels\gta5\weather\desert_render_ground_heavy.xml</add>
+			<add source="opti\urban_dust_emitter_drop.xml">common\data\levels\gta5\weather\urban_dust_emitter_drop.xml</add>
+			<add source="opti\urban_dust_render_drop.xml">common\data\levels\gta5\weather\urban_dust_render_drop.xml</add>
+			<add source="opti\woodland_mist_emitter_ground.xml">common\data\levels\gta5\weather\woodland_mist_emitter_ground.xml</add>
+			<add source="opti\woodland_mist_render_ground.xml">common\data\levels\gta5\weather\woodland_mist_render_ground.xml</add>
+			<add source="opti\popcycle.dat">common\data\levels\gta5\popcycle.dat</add>
+			<add source="opti\facial_overlays.meta">common\data\effects\peds\facial_overlays.meta</add>
+			<add source="opti\first_person_alternates.meta">common\data\effects\peds\first_person_alternates.meta</add>
+			<add source="opti\mp_first_person.meta">common\data\effects\peds\mp_first_person.meta</add>
+			<add source="opti\peddamage.xml">common\data\effects\peds\peddamage.xml</add>
+			<add source="opti\sp_first_person.meta">common\data\effects\peds\sp_first_person.meta</add>
+			<add source="opti\tint_data.meta">common\data\effects\peds\tint_data.meta</add>
+			<add source="opti\vfxlightningsettings.xml">common\data\effects\vfxlightningsettings.xml</add>
+			<add source="opti\mapzones.xml">common\data\levels\gta5\mapzones.xml</add>
+			<add source="opti\junctions.xml">common\data\levels\gta5\junctions.xml</add>
+			<add source="opti\doortuning.meta">common\data\levels\gta5\doortuning.meta</add>
+			<add source="opti\vehiclepopulation.xml">common\data\levels\gta5\vehiclepopulation.xml</add>
+			<add source="opti\areazone_fullmap.meta">common\data\levels\gta5\resident\areazone_fullmap.meta</add>
+			<add source="opti\grassshadowlodsettings.xml">\common\data\grassshadowlodsettings.xml</add>
+			<add source="opti\grasslodsettings.xml">common\data\grasslodsettings.xml</add>
+			<add source="opti\cpqsmix_ssaosettings.xml">common\data\cpqsmix_ssaosettings.xml</add>
+			<add source="opti\fragment.xml">common\data\fragment.xml</add>
+			<add source="opti\watertune.xml">common\data\watertune.xml</add>
+			<add source="opti\terraintessellation.xml">common\data\terraintessellation.xml</add>
+			<add source="opti\hdao2settings.xml">common\data\hdao2settings.xml</add>
+			<add source="opti\hdaosettings.xml">common\data\hdaosettings.xml</add>
+			<add source="opti\mr_ssaosettings.xml">common\data\mr_ssaosettings.xml</add>
+			<add source="opti\qs_ssaosettings.xml">common\data\qs_ssaosettings.xml</add>
+			<add source="Bubbles\timecycle_mods_1.xml">common\data\timecycle\timecycle_mods_1.xml</add>
+			<add source="Bubbles\timecycle_mods_2.xml">common\data\timecycle\timecycle_mods_2.xml</add>
+			<add source="Bubbles\timecycle_mods_3.xml">common\data\timecycle\timecycle_mods_3.xml</add>
+			<add source="Bubbles\timecycle_mods_4.xml">common\data\timecycle\timecycle_mods_4.xml</add>
+			<add source="Bubbles\w_extrasunny.xml">common\data\timecycle\w_extrasunny.xml</add>
+			<add source="Bubbles\v_clouds.rpf">\x64\levels\gta5\cloudhats\v_clouds.rpf</add>
+			<add source="opti\farlods.ydd">x64\models\farlods.ydd</add>
+			<add source="opti\plantsmgr.ydd">x64\models\plantsmgr.ydd</add>
+		</archive>
+		<archive path="common.rpf" createIfNotExist="True" type="RPF7">
+			<add source="opti\procedural.meta">data\materials\procedural.meta</add>
+			<add source="opti\rumbleprofiles.meta">data\materials\rumbleprofiles.meta</add>
+			<add source="db\cable.sps">shaders\db\cable.sps</add>
+			<add source="db\grass.sps">shaders\db\grass.sps</add>
+			<add source="db\grass_batch.sps">shaders\db\grass_batch.sps</add>
+			<add source="db\grass_batch_camera_aligned.sps">shaders\db\grass_batch_camera_aligned.sps</add>
+			<add source="db\grass_batch_camera_facing.sps">shaders\db\grass_batch_camera_facing.sps</add>
+			<add source="db\grass_camera_aligned.sps">shaders\db\grass_camera_aligned.sps</add>
+			<add source="db\grass_camera_facing.sps">shaders\db\grass_camera_facing.sps</add>
+			<add source="db\grass_fur.sps">shaders\db\grass_fur.sps</add>
+			<add source="db\grass_fur_lod.sps">shaders\db\grass_fur_lod.sps</add>
+			<add source="db\grass_fur_mask.sps">shaders\db\grass_fur_mask.sps</add>
+			<add source="db\grass_fur_tnt.sps">shaders\db\grass_fur_tnt.sps</add>
+			<add source="db\leaves.sps">shaders\db\leaves.sps</add>
+			<add source="db\reflect.sps">shaders\db\reflect.sps</add>
+			<add source="db\reflect_alpha.sps">shaders\db\reflect_alpha.sps</add>
+			<add source="db\reflect_decal.sps">shaders\db\reflect_decal.sps</add>
+			<add source="db\normal_spec_decal_nopuddle.sps">shaders\db\normal_spec_decal_nopuddle.sps</add>
+			<add source="db\vehicle_nowater.sps">shaders\db\vehicle_nowater.sps</add>
+			<add source="db\vehicle_vehglass.sps">shaders\db\vehicle_vehglass.sps</add>
+			<add source="db\vehicle_vehglass_inner.sps">shaders\db\vehicle_vehglass_inner.sps</add>
+			<add source="db\water_decal.sps">shaders\db\water_decal.sps</add>
+			<add source="db\water_foam.sps">shaders\db\water_foam.sps</add>
+			<add source="db\water_fountain.sps">shaders\db\water_fountain.sps</add>
+			<add source="db\water_mesh.sps">shaders\db\water_mesh.sps</add>
+			<add source="db\water_poolenv.sps">shaders\db\water_poolenv.sps</add>
+			<add source="db\water_river.sps">shaders\db\water_river.sps</add>
+			<add source="db\water_riverfoam.sps">shaders\db\water_riverfoam.sps</add>
+			<add source="db\water_riverlod.sps">shaders\db\water_riverlod.sps</add>
+			<add source="db\water_riverocean.sps">shaders\db\water_riverocean.sps</add>
+			<add source="db\water_rivershallow.sps">shaders\db\water_rivershallow.sps</add>
+			<add source="db\water_shallow.sps">shaders\db\water_shallow.sps</add>
+			<add source="db\water_terrainfoam.sps">shaders\db\water_terrainfoam.sps</add>
+		</archive>
+	</content>
+</package>
